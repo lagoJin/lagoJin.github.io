@@ -4,8 +4,8 @@ main:
     url: https://lagoJin.github.io/
   - title: "About"
     url: /about/
-  - title: "404"
-    url: /404
+  - title: "Tag"
+    url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
