@@ -3,7 +3,7 @@ main:
   - title: "메인"
     url: https://lagoJin.github.io/
   - title: "About"
-    url: https://lagoJin.github.io/about/
+    url: /about/
   - title: "404"
     url: /404
   # - title: "Sample Collections"
