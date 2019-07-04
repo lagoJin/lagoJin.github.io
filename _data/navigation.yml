@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Tag"
+  - title: "tag"
     url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
