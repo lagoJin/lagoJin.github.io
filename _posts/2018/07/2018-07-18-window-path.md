@@ -31,8 +31,7 @@ tags: [window,path]
 ![](https://drive.google.com/uc?id=1sQCNU_5ajjdCfPDTjJLAUK3OLpBKgG7O)
 
 ![](https://drive.google.com/uc?id=1FeZwPEnnWXYlzpmajuS26myyM73DO3FS)
-
-ㄴㅇㄹㄴㅇ
+ 
 ![](https://drive.google.com/uc?id=1FeZwPEnnWXYlzpmajuS26myyM73DO3FS)
 ![](https://drive.google.com/uc?id=1FeZwPEnnWXYlzpmajuS26myyM73DO3FS)
 ![](https://drive.google.com/uc?id=1FeZwPEnnWXYlzpmajuS26myyM73DO3FS)
