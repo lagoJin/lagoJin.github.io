@@ -9,3 +9,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+posts:
+  - title : Software
+    url : /categories/#software
