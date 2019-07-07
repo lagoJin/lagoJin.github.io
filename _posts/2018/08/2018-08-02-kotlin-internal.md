@@ -8,12 +8,12 @@ tags: [Kotlin,Java,Internal]
 ---
 
 ### Java
-~~~
+```yaml
 public int a = 1
 protected int b = 2
 private int c = 3
 int d = 4 (default / 패키지 단위)
-~~~
+```
 
 default의 경우 따로 명시를 해주지 않아도 됩니다.
 
@@ -27,12 +27,12 @@ deafult는 패키지 이름을 보고 접근이 가능한지 아닌지를 판단
 
 
 ### Kotlin
-~~~
+```yaml
 val a = 1 (default public)
 protected val b = 2
 private val c = 3
 internal val d = 4
-~~~
+```
 
 코틀린에서 자바의 단점을 보완하기 위해 internal 접근 제한자를 제공합니다
 
