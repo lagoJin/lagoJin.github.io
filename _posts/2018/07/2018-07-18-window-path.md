@@ -2,7 +2,6 @@
 title: Window 환경 변수 설정하기
 date: '2018-07-18 09:14:00 +0300'
 published : true
-categories : [Software]
 excerpt: window 환경변수 설정하기
 comments : true
 tags: [Window,path]
@@ -18,15 +17,15 @@ tags: [Window,path]
 
 
 #### 설치환경
-- Windows 10 
+- Windows 10
 
 
-#### 단계 
+#### 단계
  - JDK 설치
  - 경로 설정
  - 설정확인
- 
-##### 세 단계로 진행하겠습니다. 
+
+##### 세 단계로 진행하겠습니다.
 
 ![](https://drive.google.com/uc?id=1sQCNU_5ajjdCfPDTjJLAUK3OLpBKgG7O)
 ![](https://drive.google.com/uc?id=1FeZwPEnnWXYlzpmajuS26myyM73DO3FS)
