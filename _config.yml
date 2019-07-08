@@ -15,7 +15,7 @@
 minimal_mistakes_skin    :  "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "kr-KO"
+locale                   : "ko-KR"
 title                    : "JinHo Kang"
 title_separator          : "-"
 name                     : "JinHo Kang"
@@ -110,7 +110,7 @@ author:
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/profile.jpg"
   bio              : "호기심이 많아 새로운 것을 찾아보고 학습하는것을 즐깁니다."
   location         : "Incheon, Korea"
-  email            :
+  email            : "jinho6187@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
