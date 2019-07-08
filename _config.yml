@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Lago Jin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/profile.jpg"
   bio              : "호기심이 많아 새로운 것을 찾아보고 학습하는것을 즐깁니다."
   location         : "Incheon, Korea"
   email            :
