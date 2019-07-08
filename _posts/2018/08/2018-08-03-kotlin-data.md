@@ -2,7 +2,6 @@
 title: Kotlin만의 data class
 date: '2018-08-03 15:32:00 +0300'
 published : true
-categories : [Software]
 excerpt: 코틀린 data class 대해 설명드리겠습니다.
 comments : true
 tags: [Kotlin,Java,data,class]
