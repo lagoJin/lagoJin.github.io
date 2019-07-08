@@ -11,7 +11,7 @@ tags: [Kotlin,Java,data,class]
 자바에서 Pojo를 만들게 되면
 
 ### Java
-~~~
+```kotlin
 class Person {
 
   private String name;
@@ -23,7 +23,7 @@ class Person {
     this.age= age;
     this.address = address;
   }
-~~~
+```
 
 getter/setter는 기본에  + hashCode와 Equals를 추가로 정의해줘야하는 경우가 생깁니다
 
@@ -31,12 +31,12 @@ getter/setter는 기본에  + hashCode와 Equals를 추가로 정의해줘야하
 하지만, 코틀린에서는 사용자의 편의성을 위해 class앞에 data를 붙여주면 됩니다
 
 ### Kotlin
-~~~
+```kotlin
 data class Person(
   private val name:String,
   private val age:Int,
   private val address:String)
-~~~
+```
 
 이렇게만 선언해주시면 내부적으로 처리를 해줍니다!
 
