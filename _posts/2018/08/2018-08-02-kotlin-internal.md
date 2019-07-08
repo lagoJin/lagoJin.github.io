@@ -8,7 +8,7 @@ tags: [Kotlin,Java,Internal]
 ---
 
 ### Java
-```yaml
+```java
 public int a = 1
 protected int b = 2
 private int c = 3
@@ -27,7 +27,7 @@ deafult는 패키지 이름을 보고 접근이 가능한지 아닌지를 판단
 
 
 ### Kotlin
-```yaml
+```kotlin
 val a = 1 (default public)
 protected val b = 2
 private val c = 3
