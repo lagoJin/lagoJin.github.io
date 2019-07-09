@@ -1,6 +1,6 @@
 ---
 title: Window 환경 변수 설정하기
-date: '2018-07-18 09:14:00 +0300'
+last_modified_at: '2018-07-18 09:14:00 +0300'
 published : true
 excerpt: window 환경변수 설정하기
 comments : true
