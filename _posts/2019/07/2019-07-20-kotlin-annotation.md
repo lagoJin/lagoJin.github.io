@@ -71,7 +71,7 @@ class Student{
 ```
 
 ##### Kotlin
-```Kotlin
+```kotlin
 //어노테이션 선언
 annotation class People{
   val name = "HongGilDong"
