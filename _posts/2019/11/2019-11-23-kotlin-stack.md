@@ -73,7 +73,7 @@ Kotlin Stack
 
 여기서 주의해서 봐야할 점은 레이저가 지나가면서 짜른 막대에 대한 갯수 또한 포함해야 한다는 것입니다.
 
-()을 -로 변경하여 반복문을 돌면서 만난 순간 stack에 저장되어있는 갯수를 answer에 저장
+()을 -로 변경하여 반복문을 돌면서 -을 만난 순간 stack 사이즈를 answer에 더해준다.
 
     fun solution(arrangement: String): Int {
 
