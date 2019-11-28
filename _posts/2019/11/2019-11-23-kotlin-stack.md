@@ -19,7 +19,8 @@ List In First Out의 형태를 가지며 입력은 push, 출력은 pop, peek는 
     1. 힙 영역 메모리에서 일반적인 데이터를 저장하는 스택
     2. 스택 영역 메모리에서 프로그램의 각 분기점에 변수 같은 정보를 저장하기 위한 스택
 
-    ![](/assets/images/2019/11/stack/1.png)*출처 : https://visualgo.net/en/list?slide=4*
+    ![](/assets/images/2019/11/stack/1.png)
+    [출처](https://visualgo.net/en/list?slide=4)
 ---
 
 Kotlin Stack Implement
