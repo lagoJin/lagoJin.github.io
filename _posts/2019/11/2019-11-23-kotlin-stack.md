@@ -22,48 +22,49 @@ List In First Out의 형태를 가지며 입력은 push, 출력은 pop, peek는 
     ![](/assets/images/2019/11/stack/1.png)
     [출처](https://visualgo.net/en/list?slide=4)
 ---
+### Kotlin Stack Implement
+``` Kotlin
 
-Kotlin Stack Implement
+interface StackImplement<Type>{
 
-    interface StackImplement<Type>{
-
-        fun count() : Int
-        fun pop() : Type
-        fun peek() : Type
-        fun push(item : Type)
-        fun isEmpty() : Boolean
-    }
+    fun count() : Int
+    fun pop() : Type
+    fun peek() : Type
+    fun push(item : Type)
+    fun isEmpty() : Boolean
+}
+```
 
 🔨Generic을 이용하여 사용자가 원하는 타입에 맞게 구현할 수 있도록 interface 제작
 
 Kotlin Stack
+```Kotlin
+class Stack<E> : StackImplement<E> {
 
-    class Stack<E> : StackImplement<E> {
+    val list = mutableListOf<E>()
 
-        val list = mutableListOf<E>()
+    override fun size(): Int {
+        return list.size
+    }
 
-        override fun size(): Int {
-            return list.size
-        }
+    override fun pop(): E {
+        return list.removeAt(list.size - 1)
+    }
 
-        override fun pop(): E {
-            return list.removeAt(list.size - 1)
-        }
+    override fun peek(): E {
+        val item = list[list.size - 1]
+        return item
+    }
 
-        override fun peek(): E {
-            val item = list[list.size - 1]
-            return item
-        }
+    override fun push(item: E) {
+        list.add(item)
+    }
 
-        override fun push(item: E) {
-            list.add(item)
-        }
-
-        override fun isEmpty(): Boolean {
-            return list.size == 0
-        }
-
-
+    override fun isEmpty(): Boolean {
+        return list.size == 0
+    }
+}
+```
 
 ### 문제풀이 스택 -> [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
 
@@ -76,25 +77,27 @@ Kotlin Stack
 
 ()을 -로 변경하여 반복문을 돌면서 -을 만난 순간 stack 사이즈를 answer에 더해준다.
 
-    fun solution(arrangement: String): Int {
+```Kotlin
+fun solution(arrangement: String): Int {
 
-            var answer: Int = 0
-            val stack = Stack<Char>()
-            val str = arrangement.replace("()", "-")
+        var answer: Int = 0
+        val stack = Stack<Char>()
+        val str = arrangement.replace("()", "-")
 
-            str.forEach {
-                when (it) {
-                    '-' -> {
-                        answer += stack.size()
-                    }
-                    '(' -> {
-                        stack.push(it)
-                    }
-                    ')' -> {
-                        stack.pop()
-                        answer += 1
-                    }
+        str.forEach {
+            when (it) {
+                '-' -> {
+                    answer += stack.size()
                 }
-            }
-            return answer
-    }
+                '(' -> {
+                    stack.push(it)
+                }
+                ')' -> {
+                    stack.pop()
+                    answer += 1
+                }
+              }
+        }
+        return answer
+}
+```
