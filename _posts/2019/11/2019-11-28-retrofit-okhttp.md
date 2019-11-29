@@ -29,8 +29,8 @@ val interceptor = HttpLoggingInterceptor().apply {
         }
 ```
 
-//okhttp 생성
 ``` Kotlin
+//okhttp 생성
 val client = OkHttpClient.Builder().addInterceptor(interceptor as HttpLoggingInterceptor).build()
 
 //retorift2 생성
