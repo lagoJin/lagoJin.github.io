@@ -24,7 +24,6 @@ List In First Out의 형태를 가지며 입력은 push, 출력은 pop, peek는 
 ---
 ### Kotlin Stack Implement
 ```kotlin
-
 interface StackImplement<Type>{
 
     fun count() : Int
