@@ -23,7 +23,7 @@ List In First Out의 형태를 가지며 입력은 push, 출력은 pop, peek는 
     [출처](https://visualgo.net/en/list?slide=4)
 ---
 ### Kotlin Stack Implement
-``` Kotlin
+```kotlin
 
 interface StackImplement<Type>{
 
@@ -38,7 +38,7 @@ interface StackImplement<Type>{
 🔨Generic을 이용하여 사용자가 원하는 타입에 맞게 구현할 수 있도록 interface 제작
 
 Kotlin Stack
-```Kotlin
+```kotlin
 class Stack<E> : StackImplement<E> {
 
     val list = mutableListOf<E>()
@@ -77,7 +77,7 @@ class Stack<E> : StackImplement<E> {
 
 ()을 -로 변경하여 반복문을 돌면서 -을 만난 순간 stack 사이즈를 answer에 더해준다.
 
-```Kotlin
+```kotlin
 fun solution(arrangement: String): Int {
 
         var answer: Int = 0
