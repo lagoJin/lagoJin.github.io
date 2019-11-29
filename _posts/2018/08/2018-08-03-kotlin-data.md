@@ -5,6 +5,7 @@ published : true
 excerpt: 코틀린 data class 대해 설명드리겠습니다.
 comments : true
 tags: [Kotlin,Java,data,class]
+toc : true
 ---
 
 자바에서 Pojo를 만들게 되면

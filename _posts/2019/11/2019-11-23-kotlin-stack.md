@@ -4,6 +4,7 @@ last_modified_at: '2019-11-23 20:35:00 +0300'
 published : true
 excerpt: 소개해드릴것은 kotlin에서 Stack구현 방법 및 사용 방법 입니다.
 comments : true
+toc : true
 tags :
     - Kotlin
     - Stack

@@ -5,6 +5,7 @@ published : true
 excerpt: window 환경변수 설정하기
 comments : true
 tags: [Window,path]
+toc : true
 ---
 
 

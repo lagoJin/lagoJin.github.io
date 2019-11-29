@@ -4,6 +4,7 @@ last_modified_at: '2018-08-02 22:02:00 +0300'
 excerpt: 코틀린 접근 지정자 Internal에 대해 설명드리겠습니다.
 comments : true
 tags: [Kotlin,Java,Internal]
+toc: true
 ---
 
 ### Java
