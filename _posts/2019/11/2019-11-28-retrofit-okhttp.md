@@ -27,8 +27,10 @@ tags :
 val interceptor = HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BODY
         }
+```
 
 //okhttp 생성
+``` Kotlin
 val client = OkHttpClient.Builder().addInterceptor(interceptor as HttpLoggingInterceptor).build()
 
 //retorift2 생성
