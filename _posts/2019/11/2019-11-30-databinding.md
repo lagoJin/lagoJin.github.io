@@ -1,3 +1,18 @@
+---
+title: Android Databinding이란??
+last_modified_at: '2019-11-30 15:06:00 +0300'
+published : true
+excerpt: 소개해드릴것은 AAC에서 제공하는 dataBinding과 viewbinding에 대해 비교하려고 합니다.
+comments : true
+toc : true
+toc_sticky: true
+tags :
+    - Kotlin
+    - Android
+    - databinding
+    - viewbinding
+---
+
 ### 1. 뷰 바인딩이란 ?
 ---
 - xml에 내에 존재하는 id값을 가지고 있는 뷰들을 클래스로 묶어서 사용할 수 있게 해주는 것
