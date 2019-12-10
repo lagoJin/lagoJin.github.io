@@ -15,7 +15,7 @@
 minimal_mistakes_skin    :  "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
+locale                   : "en-US"
 title                    : "JinHo Kang"
 title_separator          : "-"
 name                     : "JinHo Kang"
@@ -112,7 +112,7 @@ author:
   location         : "Incheon, Korea"
   email            : "jinho6187@gmail.com"
   links:
-    - label: "jinho6187@gmail.com"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:jinho6187@gmail.com
     - label: "Website"
