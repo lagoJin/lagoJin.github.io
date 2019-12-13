@@ -40,10 +40,26 @@ layout: default
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
             </nav>
+            <nav class="toc-custom">
+      {% if page.toc_ads %}
+          {% include googleAdsSidBar.html %}
+          {% endif %}
+          </nav>
           </aside>
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7564137806848433"
+     data-ad-slot="7140081041"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
       </section>
 
       <footer class="page__meta">
