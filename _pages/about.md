@@ -17,5 +17,5 @@ toc: true
 ---
 
 ## Contact me
-- [<i class="fab fa-github"></i>](https://www.github.com/lagoJin)
-- [e-mail](mailto:jinho6187@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+- [<i class="fab fa-github"></i> Github](https://www.github.com/lagoJin)
+- [<i class="fas fa-envelope-square"></i> e-mail](mailto:jinho6187@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
