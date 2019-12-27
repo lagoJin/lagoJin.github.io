@@ -1,7 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash.png
@@ -13,8 +12,13 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2019-04-03T15:15:09-04:00
-toc: true
+toc: false
 ---
+
+##
+이력사항
+- [<i class="fas fa-file"></i> resume](https://github.com/lagoJin/resume)
+
 
 ## Contact me
 - [<i class="fab fa-github"></i> Github](https://www.github.com/lagoJin)
