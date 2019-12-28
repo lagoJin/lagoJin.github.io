@@ -38,18 +38,18 @@ ViewModelScope 구현되어 있는 형태를 보면 SupervisorJob() + Dispatcher
 
 ### 3. Repository
 
-<script src="https://gist.github.com/lagoJin/d11d740f71a5fe2dead4333193f86f94.js"/>
+<script src="https://gist.github.com/lagoJin/d11d740f71a5fe2dead4333193f86f94.js"/></script>
 
 repositofy패턴을 이용할 경우 아래와 같이 repository를 구성할 때 호출하는 함수에서 suspend를 붙여 coroutine을 사용해야 한다는 것을 명시합니다.
 
 ### 4. UseCase
 
-<script src ="https://gist.github.com/lagoJin/eac18960c508c45499890be1f0757b3e.js"/>
+<script src ="https://gist.github.com/lagoJin/eac18960c508c45499890be1f0757b3e.js"/></script>
 
 UseCase을 사용하여 호출하게 되었을 때, Kotlin에서 제공하는 runCatching을 이용하여 성공과 실패에 맞춰 처리를 해줍니다. 다만, Adapter를 쓰지 않기에 사용자가 에러 처리에 관한 부분도 처리 해줘야 합니다.
 
 ### 5. ViewModel
-<script src ="https://gist.github.com/lagoJin/4b65c3785520d259f9071622b7b95538.js"/>
+<script src ="https://gist.github.com/lagoJin/4b65c3785520d259f9071622b7b95538.js"/></script>
 
  ViewModel에서 useCase에 존재하는 함수를 호출을 하게 되면 viewModelScope을 호출 함수 파라매터로 넣어 useCase에서 Scope을 이용할 수 있도록 합니다.
 
