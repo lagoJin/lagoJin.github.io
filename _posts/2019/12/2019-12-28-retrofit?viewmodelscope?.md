@@ -16,7 +16,7 @@ tags :
 
 viewModelScop이라는 단어를 처음 보신다면 영상을 보고 오시는 걸 추천 드립니다.
 
-> [링크](https://www.youtube.com/watch?v=KMb0Fs8rCRs)
+> [링크](https://www.youtube.com/watch?v=KMb0Fs8rCRs)<br>
 [Sample](https://github.com/lagoJin/AAC_Couroutine_Demo/tree/sample)
 
 2019 DevSummit에서 viewModelScope을 발표합니다.
