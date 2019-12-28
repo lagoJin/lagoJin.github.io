@@ -16,13 +16,13 @@ tags :
 
 viewModelScop이라는 단어를 처음 보신다면 영상을 보고 오시는 걸 추천 드립니다.
 
-> [https://www.youtube.com/watch?v=KMb0Fs8rCRs](https://www.youtube.com/watch?v=KMb0Fs8rCRs)
+> [링크](https://www.youtube.com/watch?v=KMb0Fs8rCRs)
 
 2019 DevSummit에서 viewModelScope을 발표합니다.
 
 ### 1. ViewModelScope
 
-[https://gist.github.com/lagoJin/63cebf0447557707f4c7166400db52a2](https://gist.github.com/lagoJin/63cebf0447557707f4c7166400db52a2)
+{% gist https://gist.github.com/lagoJin/63cebf0447557707f4c7166400db52a2 %}
 
 ViewModelScope 구현되어 있는 형태를 보면 SupervisorJob() + Dispatchers.Main으로 구성되어 있습니다.
 
