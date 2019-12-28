@@ -22,7 +22,7 @@ viewModelScop이라는 단어를 처음 보신다면 영상을 보고 오시는 
 
 ### 1. ViewModelScope
 
-{% gist https://gist.github.com/lagoJin/63cebf0447557707f4c7166400db52a2 %}
+<script src="https://gist.github.com/lagoJin/63cebf0447557707f4c7166400db52a2"></script>
 
 ViewModelScope 구현되어 있는 형태를 보면 SupervisorJob() + Dispatchers.Main으로 구성되어 있습니다.
 
