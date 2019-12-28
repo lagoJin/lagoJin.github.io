@@ -44,18 +44,18 @@ repositofy패턴을 이용할 경우 아래와 같이 repository를 구성할 �
 
 ### 4. UseCase
 
-<script src ="https://gist.github.com/lagoJin/eac18960c508c45499890be1f0757b3e"/>
+<script src ="https://gist.github.com/lagoJin/eac18960c508c45499890be1f0757b3e.js"/>
 
 UseCase을 사용하여 호출하게 되었을 때, Kotlin에서 제공하는 runCatching을 이용하여 성공과 실패에 맞춰 처리를 해줍니다. 다만, Adapter를 쓰지 않기에 사용자가 에러 처리에 관한 부분도 처리 해줘야 합니다.
 
-### 4. ViewModel
-<script src ="https://gist.github.com/lagoJin/4b65c3785520d259f9071622b7b95538"/>
+### 5. ViewModel
+<script src ="https://gist.github.com/lagoJin/4b65c3785520d259f9071622b7b95538.js"/>
 
  ViewModel에서 useCase에 존재하는 함수를 호출을 하게 되면 viewModelScope을 호출 함수 파라매터로 넣어 useCase에서 Scope을 이용할 수 있도록 합니다.
 
 Dispatchers를 IO로 설정할 경우, livedata의 값 설정은 postValue을 이용하여야 합니다.
 
-### 5. 결론
+### 6. 결론
 
 Retrofit이 2.6으로 업데이트 되어 suspend를 지원하게 되었는데, 이러한 경우 Adapter를 커스텀하여 만들거나 에러 처리에 관한 부분을 사용자가 만들어야 하는 이슈가 있습니다. 현재 일 기준으로 서비스하는 프로젝트에 도입 하기에는 조금 부족한 느낌이 있습니다. 단, 구글에서 지속적으로 coroutine을 aac에 넣으려고 하는 만큼 공부하면 좋을 것 같습니다.
 
