@@ -28,7 +28,7 @@ ViewModelScope 구현되어 있는 형태를 보면 SupervisorJob() + Dispatcher
 
 ### 2. Service
 
-[https://gist.github.com/lagoJin/65f99087d0b0d0b07cf8262106047799](https://gist.github.com/lagoJin/65f99087d0b0d0b07cf8262106047799)
+<script src="https://gist.github.com/lagoJin/65f99087d0b0d0b07cf8262106047799.js"></script>
 
 위 영상을 보고 coroutine을 이용하여 retrofit을 호출하고 싶다는 생각을 하였는데, retrofit이 2.6(2019.06.05)로 넘어가면서 suspend를 지원하게 됩니다!
 
