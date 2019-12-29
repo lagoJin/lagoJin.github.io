@@ -1,5 +1,5 @@
 ---
-title: viewModelScope, retrofit 통신 방법
+title: coroutine을 이용한 retrofit 통신 방법
 last_modified_at: '2019-12-28 15:40:00 +0300'
 published : true
 excerpt: coroutine(viewModelScope)을 이용하여 retrofit과 통신하는 샘플입니다.
