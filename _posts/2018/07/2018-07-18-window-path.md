@@ -23,7 +23,7 @@ toc_sticky: true
 - Windows 10
 
 
-### 3.  단계
+### 3. 단계
  - JDK 설치
  - 경로 설정
  - 설정확인

@@ -8,7 +8,7 @@ toc: true
 toc_sticky: true
 ---
 
-### 1. 코틀린 접근 지정자
+### 1. 개요
 Java와는 다르게 코틀린에는 Internal이라는 접근 지정자가 존재합니다. Internal접근 지정자와 Java와의 차이점을 이야기해보려고 합니다.
 
 ### 2. Java
