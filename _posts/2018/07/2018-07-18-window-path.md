@@ -6,8 +6,10 @@ excerpt: window 환경변수 설정하기
 comments : true
 tags: [Window,path]
 toc : true
+toc_sticky: true
 ---
 
+### 1. 개요
 
 개발을 하면서 사전에 환경변수를 설정하는 경우가 많다고 느끼게 되어 자료로 남기려고 합니다.
 
@@ -17,11 +19,11 @@ toc : true
 많이 겪었던, 많이 겪으시는 [JAVA](https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)로 설명해드리겠습니다.
 
 
-#### 설치환경
+### 2. 설치환경
 - Windows 10
 
 
-#### 단계
+### 3.  단계
  - JDK 설치
  - 경로 설정
  - 설정확인

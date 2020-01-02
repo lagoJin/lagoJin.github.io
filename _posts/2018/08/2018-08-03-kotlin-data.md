@@ -6,11 +6,14 @@ excerpt: 코틀린 data class 대해 설명드리겠습니다.
 comments : true
 tags: [Kotlin,Java,data,class]
 toc : true
+toc_sticky: true
 ---
 
-자바에서 Pojo를 만들게 되면
+### 1. 개요
+자바에서의 Pojo와 코틀린에서 Pojo 생성 방법입니다.
 
-### Java
+
+### 2. Java
 ```kotlin
 class Person {
 
@@ -30,7 +33,7 @@ getter/setter는 기본에  + hashCode와 Equals를 추가로 정의해줘야하
 
 하지만, 코틀린에서는 사용자의 편의성을 위해 class앞에 data를 붙여주면 됩니다
 
-### Kotlin
+### 3. Kotlin
 ```kotlin
 data class Person(
   private val name:String,

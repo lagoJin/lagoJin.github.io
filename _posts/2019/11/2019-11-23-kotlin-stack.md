@@ -5,12 +5,13 @@ published : true
 excerpt: 소개해드릴것은 kotlin에서 Stack구현 방법 및 사용 방법 입니다.
 comments : true
 toc : true
+toc_sticky: true
 tags :
     - Kotlin
     - Stack
 ---
 
-### 스택이란 ?
+### 1. 스택이란 ?
 
 List In First Out의 형태를 가지며 입력은 push, 출력은 pop, peek는 top이라고 부른다.
 
@@ -23,7 +24,7 @@ List In First Out의 형태를 가지며 입력은 push, 출력은 pop, peek는 
     ![](/assets/images/2019/11/stack/1.png)
     [출처](https://visualgo.net/en/list?slide=4)
 ---
-### Kotlin Stack Implement
+### 2. Kotlin Stack Implement
 ```kotlin
 interface StackImplement<Type>{
 
@@ -66,7 +67,7 @@ class Stack<E> : StackImplement<E> {
 }
 ```
 
-### 문제풀이 스택 -> [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
+### 3. 문제풀이 스택 -> [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
 
 - 쇠막대기는 자신보다 긴 쇠막대기 위에만 놓일 수 있습니다.
 - 쇠막대기를 다른 쇠막대기 위에 놓는 경우 완전히 포함회도록 놓되, 끝점은 겹치지 않도록 놓습니다.

@@ -5,9 +5,13 @@ excerpt: 코틀린 접근 지정자 Internal에 대해 설명드리겠습니다.
 comments : true
 tags: [Kotlin,Java,Internal]
 toc: true
+toc_sticky: true
 ---
 
-### Java
+### 1. 코틀린 접근 지정자
+Java와는 다르게 코틀린에는 Internal이라는 접근 지정자가 존재합니다. Internal접근 지정자와 Java와의 차이점을 이야기해보려고 합니다.
+
+### 2. Java
 ```java
 public int a = 1
 protected int b = 2
@@ -26,7 +30,7 @@ A라는 클래스에 변수 a와 B라는 클래스에 변수 c가 default로 선
 deafult는 패키지 이름을 보고 접근이 가능한지 아닌지를 판단하기 때문에, 보안의 위험을 나타낼 수도 있습니다
 
 
-### Kotlin
+### 3. Kotlin
 ```kotlin
 val a = 1 (default public)
 protected val b = 2

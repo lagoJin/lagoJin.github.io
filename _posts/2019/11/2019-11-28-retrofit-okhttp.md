@@ -4,6 +4,7 @@ last_modified_at: '2019-11-28 14:09:00 +0300'
 published : true
 excerpt: 소개해드릴것은 kotlin에서 sqaure사의 okhttp + retrofit2의 사용법입니다.
 comments : true
+toc_sticky: true
 toc : true
 tags :
     - Kotlin
@@ -13,11 +14,11 @@ tags :
 ---
 
 
-### okhttp
+### 1. okhttp
 
 - 최신 http통신에 대해 간편히 하고 데이터와 미디어를 교환 하는 방법이며 구성에 도움을 주는 라이브러리이다.
 
-### retorfit2
+### 2. retorfit2
 
 - Retrofit2는 Square사에서 만든 http통신을 간편하게 만들어주는 라이브러리 입니다.
 - 구글 샘플에서도 네트워크 통신에 대한 예제를 보여줄 때는 retrofit2를 이용하는 것을 보면 비공식적으로 인정했다고 생각합니다.
@@ -42,7 +43,7 @@ Retrofit.Builder()
         .build()
         .create(GithubAPI::class.java)
 ```
-### Interface
+### 3. Interface
 
 http통신에 요청하는 어노테이션을 이용하여 작성하고, 해당 메소드에 매개변수에 값을 넣어 작성한다.
 ```kotlin
@@ -56,7 +57,7 @@ interface GithubAPI {
 ```
 
 
-### dataClass
+### 4. dataClass
 ```kotlin
 data class RepoSearchResponse(
     val incomplete_results: Boolean,
@@ -65,7 +66,7 @@ data class RepoSearchResponse(
 )
 ```
 
-### 사용
+### 5. 사용
 
 아래와 같이 enqueue하여 response와 failure를 override하여 코드를 작성해준다.  응답이 정상적으로 넘어 왔는지에 대한 isSuccessful을 확인하여 해당 데이터를 넘겨준다.(return 형태로도 사용 가능)
 

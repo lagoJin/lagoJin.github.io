@@ -4,11 +4,14 @@ last_modified_at: '2019-07-20 16:54:00 +0300'
 published : true
 excerpt: 소개해드릴것은 kotlin에서의 annotation 사용 방법 입니다.
 comments : true
+toc_sticky: true
 toc: true
 tags :
     - Kotlin
     - Annotation
 ---
+
+### 1. 개요
 
 코틀린에서도 자바와 동일하게 어노테이션(Annotation)을 정의하고 사용할 수 있으며, 그 방법에 대해 소개해드리려고 합니다.
 
@@ -25,7 +28,7 @@ tags :
 - @AnnotationName(element=value, element=value, ...)
 
 
-#### 1) 어노테이션 선언 방법
+### 2. 어노테이션 선언 방법
 
 ##### Java
 ```java
@@ -52,7 +55,7 @@ class Student{
 
 }
 ```
-#### 2) default 값 선언 방법
+### 2. default 값 선언 방법
 Java의 경우 명시적으로 default라는 키워드를 붙여줘야 한다.
 Kotlin의 경우 기본 변수를 선언 하는것과 같은 방법으로 사용한다.
 
