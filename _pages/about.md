@@ -15,11 +15,10 @@ last_modified_at: 2019-04-03T15:15:09-04:00
 toc: false
 ---
 
-##
-이력사항
+### 1. 이력사항
 - [📃 resume](https://github.com/lagoJin/resume)
 
 
-## Contact me
+### 2. Contact me
 - [<i class="fab fa-github"></i> Github](https://www.github.com/lagoJin)
 - [✉️ email](mailto:jinho6187@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
