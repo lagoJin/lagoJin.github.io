@@ -31,7 +31,7 @@ ViewModelScope 구현되어 있는 형태를 보면 SupervisorJob() + Dispatcher
 
 <script src="https://gist.github.com/lagoJin/65f99087d0b0d0b07cf8262106047799.js"></script>
 
-위 영상을 보고 coroutine을 이용하여 retrofit을 호출하고 싶다는 생각을 하였는데, retrofit이 2.6(2019.06.05)로 넘어가면서 suspend를 지원하게 됩니다!
+coroutine을 이용하여 retrofit을 호출하고 싶다는 생각을 하였는데, retrofit이 2.6(2019.06.05)로 넘어가면서 suspend를 지원하게 됩니다!
 
 이제 위와 같은 형태로 Service를 작성할 수 있게 되었습니다!
 
@@ -58,4 +58,4 @@ Dispatchers를 IO로 설정할 경우, livedata의 값 설정은 postValue을 �
 
 ### 6. 결론
 
-Retrofit이 2.6으로 업데이트 되어 suspend를 지원하게 되었는데, 이러한 경우 Adapter를 커스텀하여 만들거나 에러 처리에 관한 부분을 사용자가 만들어야 하는 이슈가 있습니다. 현재 일 기준으로 서비스하는 프로젝트에 도입 하기에는 조금 부족한 느낌이 있습니다. 단, 구글에서 지속적으로 coroutine을 aac에 넣으려고 하는 움직임이 지속적으로 보여 공부하면 좋을 것 같습니다.
+Retrofit이 2.6으로 업데이트 되어 suspend를 지원하게 되었는데, 이러한 경우 Adapter를 커스텀하여 만들거나 에러 처리에 관한 부분을 사용자가 만들어야 하는 이슈가 있습니다. 현재 일 기준으로 서비스하는 프로젝트에 도입 하기에는 조금 부족한 느낌이 있습니다. 단, 구글에서 지속적으로 coroutine을 AAC에서 지원하려고 하는 모습이 지속적으로 보여 공부하면 좋을 것 같습니다.
