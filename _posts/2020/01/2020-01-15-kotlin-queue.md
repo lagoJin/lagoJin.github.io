@@ -57,7 +57,7 @@ First In First Out의 형태를 가지며 입력은 enqueue, 출력은 dequeue�
         }
 
         override fun peek(): Int? {
-            if (!isEmpty()) {
+            if (!list.isEmpty()) {
                 return list[0]
             }
             return null
@@ -70,4 +70,4 @@ First In First Out의 형태를 가지며 입력은 enqueue, 출력은 dequeue�
 ```
 
 ### 5. 결론
-kotlin에서 list를 이용하면 간단하게 Queue를 구현할 수 있다. 값이 존재하지 않을 때 필자는 null을 사용하여 값이 없을때를 판단 해주었으나, 다른 방법도 활용이 가능할 것이라 생각한다.
+kotlin에서 list를 이용하면 간단하게 Queue를 구현할 수 있다. 값이 존재하지 않을 때 필자는 null을 사용하여 값이 없을때를 판단 해주었으나, 다른 방법도 활용이 가능할 것이라 생각합니다.
