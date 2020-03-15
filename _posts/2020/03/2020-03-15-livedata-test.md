@@ -69,4 +69,4 @@ fun <T> LiveData<T>.getOrAwaitValue(
 
 ### 4. 참고 링크
 
-- https://medium.com/androiddevelopers/unit-testing-livedata-and-other-common-observability-problems-bb477262eb04
+- <https://medium.com/androiddevelopers/unit-testing-livedata-and-other-common-observability-problems-bb477262eb04>
