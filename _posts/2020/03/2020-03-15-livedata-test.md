@@ -19,7 +19,7 @@ Android내에서 UnitTest를 진행하다보면 Livedata에 들어있는 값을 
 
 ### 2. 예시
 
-- TestLibrary는 Mockk를 사용하며, 다른 테스트를 사용하여도 동일한 방법으로 가능합니다.
+- TestLibrary는 JUnit 사용하며, 다른 테스트를 사용하여도 동일한 방법으로 가능합니다.
 
 ```kotlin
 @Test
