@@ -1,5 +1,5 @@
 ---
-title: Crashlytics + Timber? 에러를 이렇게?
+title: Crashlytics + Timber?
 last_modified_at: '2020-05-15 21:00:00 +0300'
 published : true
 excerpt: Timber와 Crashlytics를 이용하여 로그를 효율적으로 남기는 방법을 소개합니다.
@@ -9,8 +9,8 @@ toc_sticky: true
 tags :
     - Kotlin
     - Android
-    - ExpandableListView
-    - ListView
+    - Timber
+    - Crashlytics
 ---
 
 ### 1. 개요
